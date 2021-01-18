@@ -8,7 +8,6 @@ echo "# $(date +'%A, %B %e, %Y %I:%M %p')" >> $FILENAME
 echo "- [ ] " >> $FILENAME
 echo "- [ ] " >> $FILENAME
 echo " " >> $FILENAME
-echo "This is a sign-on log. " >> $FILENAME
-
+echo "This is a sign-off log. I finished everything I wanted to." >> $FILENAME
 
 code $FILENAME
